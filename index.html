@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="images/KT1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f231326baa.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section>
+
+    </section>
+   <a href="#header" class="gotoup"> <i class="fas fa-arrow-up"></i></a>
+    <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="#about"><img src="images/KT1.png" class="logo"></a>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contect">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full-Stack-Devloper</p>
+                    <h1>Hi, I'am  <br> <span> Krishn </span> talsaniya  </h1>
+                </div>
+            </div>
+    </div>
+
+    <!-- about section start with here -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/krishn4 (1).jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> hello everyone 
+                        my name is krishn talsaniya and i am 20 year old
+                         and currently i have studying in 5th sem computer engineering 
+                         and i have  have total 1 year experience in front-end devlopment and
+                          back-end devlopment and  my graduation start has 2018 in gmit  
+                           and i have completed in  2024
+                        
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designing Web/App interface || HTML 90% | CSS 85%</li>
+                            <li><span>Web devlopment</span> <br> Compleat Front-end devlopment || HTML 90% | CSS 85%  |JAVASCRIPT 80%  </li>
+                            <li><span>Back-end</span> <br> Back-end-devlopment || PHP 80% | NODE JS 60%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 -2023</span> <br> compleate web devlopment</li>
+                            <li><span>2021 - 2022</span> <br> Start Back-end devlopment</li>
+                            <li><span>2020 -2021</span> <br> Start Front-end devlopment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span> <br> Currently styding in GMIT (gyanmanjari institute of technology)</li>
+                            <li><span>2020</span> <br>Gyanmanjari institute of college (GMIT)</li>
+                            <li><span>2018</span> <br> Gyanmanjari Higher Secoundary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- services start here -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>My name is Krishan Talsaniya
+                        and I have front-end skills like
+                     HTML, CSS and JavaScript for web designing.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designing</h2>
+                    <p>My name is Krishan Talsania 
+                        and I am good at bootstrap javascript
+                         and template customization for designing.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-browser"></i>
+                    <h2>Full-stack-devloping</h2>
+                    <p>My name is Krishna Talsania
+                         and full stack Must know all languages
+                          ​​used in website development like 
+                          HTML, CSS, JavaScript, PHP, Bootstrap, Node.js
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- start portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/agecalculator.png">
+                    <div class="layer">
+                        <h3>Age Calculator</h3>
+                        <p>There is a  age calculator for this 
+                            in which you enter your birthdate
+                             and the data will be shown 
+                        </p>
+                        <a href="https://phwgegqnvzw59js0pny31w.on.drv.tw/sites/Age Calculator.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bmicalculator.png">
+                    <div class="layer">
+                        <h3>BMI Calculator</h3>
+                        <p>This is a BMI calculator
+                             in which you can check your BMI by entering 
+                             your weight and your height, if it is between 19 to 25
+                              then there is no problem otherweise you have visit one 
+                              time in hospital suggested(Wellocity Hospital)
+                        </p>
+                        <a href="https://phwgegqnvzw59js0pny31w.on.drv.tw/sites/BMI project.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/todo.png">
+                    <div class="layer">
+                        <h3>TODO List</h3>
+                        <p>This is a to-do list
+                             in which you can put your entire day's
+                              work as a reminder, in case you forget,
+                               you can refer to it and do the work and
+                               your work has compleate then you have delete.
+                        </p>
+                        <a href="https://phwgegqnvzw59js0pny31w.on.drv.tw/todo/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- start contect form -->
+
+    <div id="contect">
+        <div class="container">
+            <div class="row">
+                <div class="contect-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>talsaniyakrishn2@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>6357909090</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100070044115421"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/+916357909090"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/krishn___111/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/krishn-talsaniya-8b3b86256/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="pdf/krishn.pdf" download="krishn.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contect-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required autocomplete="off">
+                        <input type="email" name="email" placeholder="Enter Your Email Here" required autocomplete="off">
+                        <textarea name="message"rows="6" placeholder="Write here what you need"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; Krishn Talsaniya </p>
+        </div>
+    </div>
+
+    <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() 
+        {
+            sidemeu.style.right = "0";
+
+        }
+
+        function closemenu()
+        {
+            sidemeu.style.right = "-200px";
+            
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbznhYmrW5VNm-C2ySsJrfYMf6oqIwTBlYsYSuBz7bc00BWf9FBG2g0F2N26lQn8nSIV/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your Information Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    <script>
+        const gotoup = document.querySelector(".gotoup");
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100){
+                gotoup.classList.add("active");
+            }else
+            {
+                gotoup.classList.remove("active")
+            }
+        })
+    </script>
+</body>
+</html>
